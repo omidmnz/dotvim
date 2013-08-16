@@ -13,7 +13,4 @@ And install Source Code Pro font, from http://sourceforge.net/projects/sourcecod
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
-A few plugins may need Python support. A few may need these software to be installed:
-Node.js
-Google closure compiler, linter
-Clang analyzer
+A few plugins may need Python support. A few may need these software to be installed: Node.js,Google closure compiler and linter, Clang analyzer

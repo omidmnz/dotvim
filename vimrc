@@ -18,6 +18,8 @@ endif
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+"The most important thing to do after initializations
+execute pathogen#infect()
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -95,9 +97,6 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
 		  \ | wincmd p | diffthis
 endif 
-
-"The most important thing after initializations:
-execute pathogen#infect()
 
 set number "set line nubmers on
 
