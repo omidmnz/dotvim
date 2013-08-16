@@ -140,7 +140,7 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 "set completeopt=menuone,menu,longest,preview
 "js
-let g:syntastic_javascript_checker = "closurecompiler"
+"let g:syntastic_javascript_checker = "closurecompiler"
 let g:syntastic_javascript_closure_compiler_path = '/usr/share/java/closure-compiler/closure-compiler.jar'
 "cpp
 let g:syntastic_c_check_header = 1
