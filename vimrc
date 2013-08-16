@@ -146,7 +146,7 @@ let g:syntastic_javascript_closure_compiler_path = '/usr/share/java/closure-comp
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
 "clang_complete
-let g:clang_complete_copen = 1
+"let g:clang_complete_copen = 1
 
 "invisible characters
 nmap <leader>l :set list!<CR>
@@ -155,3 +155,6 @@ set listchars=tab:▸\ ,eol:¬
 "Colorscheme
 colorscheme xoria256
 nmap <leader>c :set cursorline!<CR>
+
+"configure the path for ctrlp.vim
+set runtimepath^=~/.vim/bundle/ctrlp.vim
