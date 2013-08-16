@@ -4,10 +4,10 @@ dotvim
 My Vim configuration. (Contains a few key mappings for Colemak)
 
 To get started:
-    git clone https://github.com/omidmnz/dotvim.git ~/.vim
 
-    ln -s ~/.vim/vimrc ~.vimrc
-    ln -s ~/.vim/gvimrc ~.gvimrc
+    git clone https://github.com/omidmnz/dotvim.git ~/.vim
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
     cd ~/.vim/
     git submodule init
     git submodule update
@@ -16,4 +16,4 @@ And install Source Code Pro font, from http://sourceforge.net/projects/sourcecod
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
-A few plugins may need Python support. A few may need these software to be installed: Node.js,Google closure compiler and linter, Clang analyzer
+ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, google closure linter.

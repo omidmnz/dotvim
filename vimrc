@@ -145,6 +145,8 @@ let g:syntastic_javascript_closure_compiler_path = '/usr/share/java/closure-comp
 "cpp
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
+"python
+let g:syntastic_python_checkers=['pylint']
 "clang_complete
 "let g:clang_complete_copen = 1
 
