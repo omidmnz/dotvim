@@ -8,6 +8,9 @@ To get started:
 
     ln -s ~/.vim/vimrc ~.vimrc
     ln -s ~/.vim/gvimrc ~.gvimrc
+    cd ~/.vim/
+    git submodule init
+    git submodule update
 
 And install Source Code Pro font, from http://sourceforge.net/projects/sourcecodepro.adobe/files/SourceCodePro_FontsOnly-1.017.zip/download
 
