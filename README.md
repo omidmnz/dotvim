@@ -16,4 +16,4 @@ And install Source Code Pro font, from http://sourceforge.net/projects/sourcecod
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
-ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, google closure linter.
+ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint).
