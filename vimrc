@@ -152,7 +152,7 @@ let g:syntastic_python_checkers=['pylint']
 
 "invisible characters
 nmap <leader>l :set list!<CR>
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,trail:•
 
 "Colorscheme
 colorscheme xoria256
