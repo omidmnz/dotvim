@@ -160,3 +160,4 @@ nmap <leader>c :set cursorline!<CR>
 
 "configure the path for ctrlp.vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set laststatus=2 "to let the airline statusbar show before splitting
