@@ -95,8 +95,8 @@ endif " has("autocmd")
 " Only define it when not defined already.
 if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
-		  \ | wincmd p | diffthis
-endif 
+              \ | wincmd p | diffthis
+endif
 
 set number "set line nubmers on
 
@@ -108,7 +108,7 @@ set expandtab
 set softtabstop=4
 
 "Configure Tab related shortcuts
-map <F4> :tabe 
+map <F4> :tabe
 map <F5> :tabp<CR>
 map <F6> :tabn<CR>
 
@@ -160,4 +160,5 @@ nmap <leader>c :set cursorline!<CR>
 
 "configure the path for ctrlp.vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 set laststatus=2 "to let the airline statusbar show before splitting
