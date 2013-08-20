@@ -161,6 +161,7 @@ nmap <leader>c :set cursorline!<CR>
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 set laststatus=2 "to let the airline statusbar show before splitting
+let g:airline_theme="molokai"
 
 "Startify customizations
 let g:startify_custom_header = [
