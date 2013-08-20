@@ -155,7 +155,6 @@ nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬,trail:•
 
 "Colorscheme
-colorscheme xoria256
 nmap <leader>c :set cursorline!<CR>
 
 "configure the path for ctrlp.vim
