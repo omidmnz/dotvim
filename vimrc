@@ -107,6 +107,11 @@ set shiftwidth=4
 set expandtab
 set softtabstop=4
 
+"Indentation prefferences for javascript
+au Filetype javascript setlocal tabstop=2
+au Filetype javascript setlocal shiftwidth=2
+au Filetype javascript setlocal softtabstop=2
+
 "Configure Tab related shortcuts
 map <F4> :tabe
 map <F5> :tabp<CR>
@@ -174,3 +179,6 @@ let g:startify_custom_header = [
             \ '',
             \ '',
             \ ]
+
+"Configure Sexy Scroller
+:let g:SexyScroller_EasingStyle = 2

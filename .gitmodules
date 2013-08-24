@@ -46,3 +46,9 @@
 [submodule "bundle/startify"]
 	path = bundle/startify
 	url = https://github.com/mhinz/vim-startify.git
+[submodule "bundle/ternjs"]
+	path = bundle/ternjs
+	url = https://github.com/marijnh/tern_for_vim.git
+[submodule "bundle/scroller"]
+	path = bundle/scroller
+	url = https://github.com/joeytwiddle/sexy_scroller.vim.git
