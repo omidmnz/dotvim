@@ -11,9 +11,11 @@ To get started:
     cd ~/.vim/
     git submodule init
     git submodule update
+    cd bundle/ternjs/
+    npm install
 
 And install Source Code Pro font, from http://sourceforge.net/projects/sourcecodepro.adobe/files/SourceCodePro_FontsOnly-1.017.zip/download
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
-ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint).
+ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint). TernJS should be installed as shown in the commands above.
