@@ -52,3 +52,6 @@
 [submodule "bundle/scroller"]
 	path = bundle/scroller
 	url = https://github.com/joeytwiddle/sexy_scroller.vim.git
+[submodule "bundle/multicursor"]
+	path = bundle/multicursor
+	url = https://github.com/paradigm/vim-multicursor.git
