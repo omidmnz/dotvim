@@ -14,7 +14,8 @@ To get started:
     cd bundle/ternjs/
     npm install
 
-And install Source Code Pro font, from http://sourceforge.net/projects/sourcecodepro.adobe/files/SourceCodePro_FontsOnly-1.017.zip/download
+The default font it Ubuntu Mono now. You can get it from http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip
+But if you prefer Source Code Pro, get it from http://sourceforge.net/projects/sourcecodepro.adobe/files/SourceCodePro_FontsOnly-1.017.zip/download and change gvimrc file.
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 

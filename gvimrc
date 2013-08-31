@@ -1,5 +1,6 @@
 "set fu
-set guifont=Source\ Code\ Pro
+set guifont=Ubuntu\ Mono\ 12
+"set guifont=Source\ Code\ Pro
 "set guifont=monospace
 set guioptions-=T
 set guioptions-=m
