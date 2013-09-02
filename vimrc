@@ -112,6 +112,9 @@ au Filetype javascript setlocal tabstop=2
 au Filetype javascript setlocal shiftwidth=2
 au Filetype javascript setlocal softtabstop=2
 
+"Javascript syntax folding
+au Filetype javascript syntax region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+
 "Configure Tab related shortcuts
 map <F4> :tabe
 map <F5> :tabp<CR>
