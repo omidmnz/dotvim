@@ -73,3 +73,6 @@
 [submodule "bundle/clever-f"]
 	path = bundle/clever-f
 	url = https://github.com/rhysd/clever-f.vim.git
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

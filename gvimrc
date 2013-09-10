@@ -5,7 +5,7 @@ set guifont=Ubuntu\ Mono\ 12
 set guioptions-=T
 set guioptions-=m
 "Colorscheme
-colorscheme xoria256
+colorscheme Monokai
 
 let g:airline_left_sep='›❱'
 let g:airline_right_sep='❰‹'
