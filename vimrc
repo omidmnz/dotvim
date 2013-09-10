@@ -291,3 +291,51 @@ let g:neosnippet#enable_snipmate_compatibility = 1
 
 " Tell Neosnippet about the other snippets
 let g:neosnippet#snippets_directory='~/.vim/bundle/snippets/snippets'
+
+"Configure MultipleCursers
+"Normal manual placings:
+nnoremap <leader>cp :<c-u>call MultiCursorPlaceCursor()<cr>
+"Normal removing of all cursers:
+nnoremap <leader>cR :<c-u>call MultiCursorRemoveCursors()<cr>
+"Activating normal manual placings:
+nnoremap <leader>cg :<c-u>call MultiCursorManual()<cr>
+"Select each line in Visual mode. Prepend with a number n to
+"make it select each n lines:
+xnoremap <leader>cp :<c-u>call MultiCursorVisual()<cr>
+"Select cursers by search:
+nnoremap <leader>cf :<c-u>call MultiCursorSearch('')<cr>
+let g:multicursor_quit = "cq"
+
+"Configure Signify
+let g:signify_vcs_list = [ 'git', 'hg' ]
+
+let g:signify_difftool = 'gnudiff'
+
+let g:signify_mapping_next_hunk = '<leader>gk'
+let g:signify_mapping_prev_hunk = '<leader>gh'
+
+let g:signify_mapping_toggle_highlight = '<leader>gs'
+let g:signify_mapping_toggle           = '<leader>gt'
+
+let g:signify_skip_filetype = { 'vim': 1 }
+"let g:signify_skip_filename = { '/home/user/.vimrc': 1 }
+
+let g:signify_sign_overwrite = 1
+
+let g:signify_update_on_bufenter = 0
+let g:signify_update_on_focusgained = 0
+
+let g:signify_line_highlight = 0
+
+let g:signify_sign_add               = '+'
+let g:signify_sign_change            = '!'
+let g:signify_sign_delete            = '_'
+let g:signify_sign_delete_first_line = '‾'
+
+let g:signify_cursorhold_normal = 1
+let g:signify_cursorhold_insert = 1
+
+"Configure Tagbar for javascript
+let g:tagbar_type_javascript = {
+    \ 'ctagsbin' : '/usr/bin/jsctags'
+\ }

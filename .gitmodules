@@ -61,3 +61,12 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/css-color"]
+	path = bundle/css-color
+	url = https://github.com/skammer/vim-css-color.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/signify"]
+	path = bundle/signify
+	url = https://github.com/mhinz/vim-signify.git
