@@ -339,3 +339,6 @@ let g:signify_cursorhold_insert = 1
 let g:tagbar_type_javascript = {
     \ 'ctagsbin' : '/usr/bin/jsctags'
 \ }
+
+"Configure clever-f
+let g:clever_f_across_no_line=1
