@@ -300,17 +300,17 @@ let g:neosnippet#snippets_directory='~/.vim/bundle/snippets/snippets'
 
 "Configure MultipleCursers
 "Normal manual placings:
-nnoremap <leader>cp :<c-u>call MultiCursorPlaceCursor()<cr>
+nnoremap <leader>mp :<c-u>call MultiCursorPlaceCursor()<cr>
 "Normal removing of all cursers:
-nnoremap <leader>cR :<c-u>call MultiCursorRemoveCursors()<cr>
+nnoremap <leader>mR :<c-u>call MultiCursorRemoveCursors()<cr>
 "Activating normal manual placings:
-nnoremap <leader>cg :<c-u>call MultiCursorManual()<cr>
+nnoremap <leader>mg :<c-u>call MultiCursorManual()<cr>
 "Select each line in Visual mode. Prepend with a number n to
 "make it select each n lines:
-xnoremap <leader>cp :<c-u>call MultiCursorVisual()<cr>
+xnoremap <leader>mp :<c-u>call MultiCursorVisual()<cr>
 "Select cursers by search:
-nnoremap <leader>cf :<c-u>call MultiCursorSearch('')<cr>
-let g:multicursor_quit = "cq"
+nnoremap <leader>mf :<c-u>call MultiCursorSearch('')<cr>
+let g:multicursor_quit = "mq"
 
 "Configure Signify
 let g:signify_vcs_list = [ 'git', 'hg' ]
