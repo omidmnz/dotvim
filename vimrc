@@ -99,6 +99,7 @@ if !exists(":DiffOrig")
 endif
 
 set wildmenu
+set wildmode=full
 
 set number "set line nubmers on
 
