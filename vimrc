@@ -124,6 +124,10 @@ map <F6> :tabn<CR>
 noremap h k
 noremap j h
 noremap k j
+
+noremap gk gj
+noremap gh gk
+
 "Foldings
 noremap zk zj
 noremap zh zk
