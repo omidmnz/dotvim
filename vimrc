@@ -98,6 +98,8 @@ if !exists(":DiffOrig")
               \ | wincmd p | diffthis
 endif
 
+set wildmenu
+
 set number "set line nubmers on
 
 "Configur autoindentation, and general indentation rules
