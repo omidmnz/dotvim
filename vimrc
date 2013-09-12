@@ -127,16 +127,8 @@ map <F5> :tabp<CR>
 map <F6> :tabn<CR>
 
 "Configure Colemak related mappings
-noremap h k
-noremap j h
-noremap k j
+set langmap=hk,jh,kj
 
-noremap gk gj
-noremap gh gk
-
-"Foldings
-noremap zk zj
-noremap zh zk
 "Window Management
 :nmap <silent> <C-j> :wincmd h<CR>
 :nmap <silent> <C-k> :wincmd j<CR>
