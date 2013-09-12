@@ -98,6 +98,9 @@ if !exists(":DiffOrig")
               \ | wincmd p | diffthis
 endif
 
+let mapleader = ","
+nnoremap ; :
+
 set wildmenu
 set wildmode=full
 
