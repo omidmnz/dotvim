@@ -101,6 +101,9 @@ endif
 let mapleader = ","
 nnoremap ; :
 
+nnoremap ` '
+nnoremap ' `
+
 set wildmenu
 set wildmode=full
 
