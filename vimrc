@@ -355,3 +355,18 @@ let g:tagbar_type_javascript = {
 
 "Configure clever-f
 let g:clever_f_across_no_line=1
+
+"Autorefresh firefox with MoxRepl. You need to start it
+"from Tool>MozRepl>Start
+autocmd BufWriteCmd *.html,*.css,*.gtpl :call Refresh_firefox()
+function! Refresh_firefox()
+  if &modified
+    write
+    silent !echo  'vimYo = content.window.pageYOffset;
+          \ vimXo = content.window.pageXOffset;
+          \ BrowserReload();
+          \ content.window.scrollTo(vimXo,vimYo);
+          \ repl.quit();'  |
+          \ nc -w 1 localhost 4242 2>&1 > /dev/null
+  endif
+endfunction

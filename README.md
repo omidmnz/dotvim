@@ -19,4 +19,4 @@ But if you prefer Source Code Pro, get it from http://sourceforge.net/projects/s
 
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
-ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint). TernJS should be installed as shown in the commands above. Tagbar needs ctags, and jsctags (npm install -g jsctags).
+ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint). TernJS should be installed as shown in the commands above. Tagbar needs ctags, and jsctags (npm install -g jsctags). For Firefox auto-refresh you need MozRepl installed, and running inside Firefox.
