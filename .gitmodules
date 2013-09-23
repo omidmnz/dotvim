@@ -82,3 +82,6 @@
 [submodule "bundle/emmet"]
 	path = bundle/emmet
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe.git
