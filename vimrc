@@ -121,6 +121,11 @@ au Filetype javascript setlocal tabstop=2
 au Filetype javascript setlocal shiftwidth=2
 au Filetype javascript setlocal softtabstop=2
 
+"Indentation prefferences for html
+au Filetype html setlocal tabstop=2
+au Filetype html setlocal shiftwidth=2
+au Filetype html setlocal softtabstop=2
+
 "Javascript syntax folding
 au Filetype javascript syntax region foldBraces start=/{/ end=/}/ transparent fold keepend extend
 
