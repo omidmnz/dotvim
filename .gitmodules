@@ -85,3 +85,6 @@
 [submodule "bundle/vaxe"]
 	path = bundle/vaxe
 	url = https://github.com/jdonaldson/vaxe.git
+[submodule "bundle/js-indent"]
+	path = bundle/js-indent
+	url = https://github.com/vim-scripts/JavaScript-Indent.git
