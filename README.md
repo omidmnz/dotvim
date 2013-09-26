@@ -12,6 +12,9 @@ To get started:
     git submodule init
     git submodule update
     cd bundle/ternjs/
+    cd ../..
+    cd bundle/jedi
+    git submodule update --init
     npm install
 
 The default font it Ubuntu Mono now. You can get it from http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip
@@ -20,3 +23,4 @@ But if you prefer Source Code Pro, get it from http://sourceforge.net/projects/s
 I personally map Caps Lock key, to be and extra ESC key from the OS.
 
 ConqueTerm plugin needs python support. Syntastic needs pylint, gcc, jshint(npm install -g jshint). TernJS should be installed as shown in the commands above. Tagbar needs ctags, and jsctags (npm install -g jsctags). For Firefox auto-refresh you need MozRepl installed, and running inside Firefox.
+For jedi, you need to run 'git submodule update --init' after each update.
