@@ -340,8 +340,8 @@ let g:signify_skip_filetype = { 'vim': 1 }
 
 let g:signify_sign_overwrite = 1
 
-let g:signify_update_on_bufenter = 0
-let g:signify_update_on_focusgained = 0
+let g:signify_update_on_bufenter = 0 "Will write file if enabled
+let g:signify_update_on_focusgained = 0 "Will write file if enabled
 
 let g:signify_line_highlight = 0
 
@@ -350,8 +350,8 @@ let g:signify_sign_change            = '!'
 let g:signify_sign_delete            = '_'
 let g:signify_sign_delete_first_line = '‾'
 
-let g:signify_cursorhold_normal = 1
-let g:signify_cursorhold_insert = 1
+let g:signify_cursorhold_normal = 0 "Will write file if enabled
+let g:signify_cursorhold_insert = 0 "Will write file if enabled
 
 "Configure Tagbar for javascript
 let g:tagbar_type_javascript = {
